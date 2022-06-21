@@ -17,4 +17,4 @@ export class Album{
     track: Track[];
 }
 
-export const AlbumSchema = SchemaFactory.createForClass(Album)
+export const albumSchema = SchemaFactory.createForClass(Album)
